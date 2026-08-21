@@ -603,7 +603,7 @@ Solche Workshops biete ich auch gerne auf Retreats oder kleineren Festivals und 
 		</section>
 				<div class="elementor-element elementor-element-1c3ce0a elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="1c3ce0a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 				<div class="elementor-widget-container">
-							<form class="elementor-form" action="https://api.deploybase.eu/f/Q7rHPQ1MHTpg5M" method="POST"></form>
+							<form class="elementor-form" action="https://api.deploybase.eu/f/Q7rHPQ1MHTpg5M" method="POST" id="kontakt-form">
 			<input type="hidden" name="form_id" value="1c3ce0a"/>
 			<input type="hidden" name="referer_title" value="" />
 			<div class="elementor-form-fields-wrapper elementor-labels-above">
@@ -636,7 +636,7 @@ Solche Workshops biete ich auch gerne auf Retreats oder kleineren Festivals und 
 					<input size="1" type="text" name="form_fields[field_9f64c1c]" id="form-field-field_9f64c1c" class="elementor-field elementor-size-sm " style="display:none !important;">				</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
 					<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-									<button class="elementor-button elementor-size-sm" type="submit">
+									<button class="elementor-button elementor-size-sm" type="submit" id="submit-form-button">
 						<span class="elementor-button-content-wrapper">
 																						<span class="elementor-button-text">Absenden!</span>
 													</span>
@@ -796,6 +796,12 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.lu-sukha.de\/wp-admin
 <script id="pro-elements-handlers-js" src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.min%EF%B9%96ver=3.23.2.js"></script>
 			<script>
 				/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+			<script>
+				const form = document.getElementById("kontakt-form");
+				document.getElementById("submit-form-button").addEventListener("click", function () {
+					form.submit();
+				});
 			</script>
 			
 </body>
