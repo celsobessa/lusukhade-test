@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lu Sá Sukha</title>
+	<atom:link href="https://www.lu-sukha.de/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.lu-sukha.de</link>
+	<description>The Beauty of Touch</description>
+	<lastBuildDate>Mon, 15 Jun 2026 16:07:43 +0000</lastBuildDate>
+	<language>de</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1</generator>
+
+<image>
+	<url>https://www.lu-sukha.de/wp-content/uploads/2023/07/cropped-Icon-Lu-1-32x32.png</url>
+	<title>Lu Sá Sukha</title>
+	<link>https://www.lu-sukha.de</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+</channel>
+</rss>

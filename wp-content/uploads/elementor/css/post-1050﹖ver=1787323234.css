@@ -1,0 +1,57 @@
+.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );text-transform:var( --e-global-typography-primary-text-transform );font-style:var( --e-global-typography-primary-font-style );text-decoration:var( --e-global-typography-primary-text-decoration );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );color:var( --e-global-color-primary );}.elementor-1050 .elementor-element.elementor-element-69ecc2fb > .elementor-widget-container{padding:5rem 0rem 05rem 0rem;}.elementor-1050 .elementor-element.elementor-element-69ecc2fb{text-align:center;}.elementor-1050 .elementor-element.elementor-element-69ecc2fb .elementor-heading-title{font-family:"Montserrat Alternates Local", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;font-weight:400;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-1050 .elementor-element.elementor-element-3ed5cbd8{--spacer-size:50px;}@media(max-width:1366px){.elementor-1050 .elementor-element.elementor-element-4cc43067{padding:2rem 2rem 2rem 2rem;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}}@media(max-width:767px){.elementor-1050 .elementor-element.elementor-element-4cc43067{padding:1rem 1rem 1rem 1rem;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}}@media(min-width:2400px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-LightItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: italic;
+	font-weight: 400;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Alternates Local';
+	font-style: italic;
+	font-weight: 800;
+	font-display: auto;
+	src: url('../../2024/07/MontserratAlternates-BoldItalic.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
