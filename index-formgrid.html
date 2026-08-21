@@ -603,7 +603,47 @@ Solche Workshops biete ich auch gerne auf Retreats oder kleineren Festivals und 
 		</section>
 				<div class="elementor-element elementor-element-1c3ce0a elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="1c3ce0a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 				<div class="elementor-widget-container">
-<iframe src="https://tally.so/embed/ob8ZJx?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" sandbox="allow-forms allow-same-origin allow-scripts all"></iframe>
+							<form class="elementor-form" action="https://formgrid.dev/api/f/ly9b4xbt" method="POST" id="kontakt-form">
+			<input type="hidden" name="form_id" value="1c3ce0a"/>
+			<input type="hidden" name="referer_title" value="" />
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+												<label for="form-field-name" class="elementor-field-label">
+								Wie heißt du? (Und gib mir gerne dein(e) Pronomen, wenn du magst.)							</label>
+														<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label">
+								Und wie ist deine E-Mail?							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_6619054 elementor-col-100">
+												<label for="form-field-field_6619054" class="elementor-field-label">
+								Unter welcher Handynummer erreiche ich dich?							</label>
+								<input size="1" type="tel" name="form_fields[field_6619054]" id="form-field-field_6619054" class="elementor-field elementor-size-sm  elementor-field-textual" pattern="[0-9()#&amp;+*-=.]+" title="Nur Nummern oder Telefon-Zeichen (#, -, *, etc) werden akzeptiert.">
+
+						</div>
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_2ba80f6 elementor-col-100">
+												<label for="form-field-field_2ba80f6" class="elementor-field-label">
+								Zu welcher Tageszeit bist du i.d.R. gut erreichbar?							</label>
+														<input size="1" type="text" name="form_fields[field_2ba80f6]" id="form-field-field_2ba80f6" class="elementor-field elementor-size-sm  elementor-field-textual">
+											</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+												<label for="form-field-message" class="elementor-field-label">
+								Und schließlich: Deine Nachricht!							</label>
+						<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4"></textarea>				</div>
+								<div class="elementor-field-type-text">
+					<input size="1" type="text" name="form_fields[field_9f64c1c]" id="form-field-field_9f64c1c" class="elementor-field elementor-size-sm " style="display:none !important;">				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+									<button class="elementor-button elementor-size-sm" type="submit" id="submit-form-button">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Absenden!</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-c393eb8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c393eb8" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
@@ -756,6 +796,17 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.lu-sukha.de\/wp-admin
 <script id="pro-elements-handlers-js" src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.min%EF%B9%96ver=3.23.2.js"></script>
 			<script>
 				/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+			<script>
+				const form = document.getElementById("kontakt-form");
+				form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    try {
+        const response = await fetch('https://formgrid.dev/api/f/ly9b4xbt', { method: 'POST', body: formData });
+        if (response.ok) { alert('Form submitted successfully!'); form.reset(); }
+    } catch (error) { alert('Error submitting form'); }
+});
 			</script>
 			
 </body>
